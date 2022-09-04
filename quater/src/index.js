@@ -47,6 +47,8 @@ import AddListing from './components/add-listing';
 import Wishlist from './components/wishlist';
 import OrderTracking from './components/order-tracking';
 import History from './components/history';
+import * as bootstrap from 'bootstrap';
+import 'bootstrap/dist/css/bootstrap.min.css'
 
 
 class Root extends Component {

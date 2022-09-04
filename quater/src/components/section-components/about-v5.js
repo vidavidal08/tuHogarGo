@@ -20,7 +20,7 @@ class AboutV5 extends Component {
 					<div className="about-us-info-wrap">
 						<div className="section-title-area ltn__section-title-2--- mb-20">
 						<h6 className="section-subtitle section-subtitle-2 ltn__secondary-color">About Us</h6>
-						<h1 className="section-title">The Leading Real Estate
+						<h1 className="section-title">The Leading Real Estate this
 							Rental Marketplace<span>.</span></h1>
 						<p>Over 39,000 people work for us in more than 70 countries all over the
 							This breadth of global coverage, combined with specialist services</p>

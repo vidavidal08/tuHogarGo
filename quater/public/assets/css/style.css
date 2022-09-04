@@ -230,9 +230,9 @@ font-family: 'Poppins', sans-serif;
   --ltn__primary-color-3: #133236;
   /* Lighten */
   --ltn__secondary-color: #06740f;
-  --ltn__secondary-color-2: #cb3421;
+  --ltn__secondary-color-2: #06740f;
   /* Darken */
-  --ltn__secondary-color-3: #fb412a;
+  --ltn__secondary-color-3: #b32f2f;
   /* Lighten */
   --ltn__heading-color: #071c1f;
   --ltn__paragraph-color: #5c727d;
@@ -352,7 +352,7 @@ font-family: 'Poppins', sans-serif;
   --pink: #ffc0cb;
   --nude: #ebc8b2;
   --orange: #ffa500;
-  --ratings: #ffb800;
+  --r3atings: #ffb800;
   /* social media colors */
   --facebook: #365493;
   --twitter: #3cf;
@@ -6632,6 +6632,29 @@ ul.wp-block-latest-posts.is-grid.alignwide {
   Utilize Mobile Menu
 ---------------------------------------- */
 .ltn__utilize {
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  right: 0;
+  left: auto;
+  display: block;
+  overflow: hidden;
+  width: 400px;
+  height: 100vh;
+  padding: 20px 10px 20px 30px;
+  -webkit-transition: all 0.5s ease 0s;
+  -o-transition: all 0.5s ease 0s;
+  transition: all 0.5s ease 0s;
+  -webkit-transform: translateX(100%);
+  -ms-transform: translateX(100%);
+  transform: translateX(100%);
+  background-color: var(--white);
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  z-index: 99999;
+}
+
+.ltn__utilize-centrado {
   position: fixed;
   z-index: 1000;
   top: 0;
@@ -17850,6 +17873,10 @@ input.cart-plus-minus-box {
   margin-right: 0;
 }
 
+.theme-btn-closed{
+  background-color: var(--ltn__secondary-color);
+}
+
 .theme-btn-1 {
   background-color: var(--ltn__secondary-color);
   color: var(--white);
@@ -17869,7 +17896,7 @@ input.cart-plus-minus-box {
 }
 
 .theme-btn-3 {
-  background-color: transparent;
+  background-color: var(--ltn__secondary-color-3);
   border: 2px solid var(--border-color-9);
 }
 .theme-btn-3:hover {
